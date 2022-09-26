@@ -241,13 +241,12 @@ p{
 /*END header*/
 
 /*HERO SECTION*/
-#hero{
-    background-image: url(./img/header.jpeg);
-    background-size: cover;
-    background-position: top center;
-    position: relative; 
-    /*z-index is the layer position (-1 is behind), 1 is in front*/
-    z-index: 1;
+#hero {
+	background-image: url(./img/header.jpeg);
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+	z-index: 1;
 }
 
 /*Creates a layer above header img (opaque black) and makes it opaque for layered contrasting*/
