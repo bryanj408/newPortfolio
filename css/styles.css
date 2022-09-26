@@ -378,7 +378,8 @@ p{
     flex-basis: 50%;
     height: 300px;
     overflow: hidden;
-    position: relative; /* An element with position: relative; is positioned relative to its normal position.  */
+    position: relative; /* An element with position: relative; is positioned relative to its normal position.*/
+    cursor: pointer;
 }
 
 #projects .project-img:after{
