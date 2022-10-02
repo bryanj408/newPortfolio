@@ -89,7 +89,7 @@
                   <div class="project-info">
                     <h1>Project 4</h1>
                     <h2>Chat App</h2>
-                    <p>I built a chatt app that is a native mobile app built using React Native that allows users to enter a chat room, 
+                    <p>I built a chat app that is a native mobile app built using React Native that allows users to enter a chat room, 
                       send messages, images, and their location.</p>
                   </div>
                   <div class="project-img">
@@ -153,29 +153,25 @@
         <!--Start Contact Section-->
 
         <section id="contact">
-            <div class="contact container">
-              <div>
-                <h1 class="section-title">Contact <span>info</span></h1>
-              </div>
-              <div class="contact-items">
-                <div class="contact-item">
-                  <div class="icon"><img src="./img/phone.png" /></div>
-                  <div class="contact-info">
-                    <h1>Phone</h1>
-                    <h2>+1 408-326-9504</h2>
-                  </div>
+          <h1 class="section-title">Contact <span>Me</span></h1>
+            <div class="contact-form">
+              <form action="https://formsubmit.co/bryan.arndt52@gmail.com" method="POST">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_subject" value="You got a new email!"> <!--Auto-generated subject line for me-->
+                <div class="contact-email">
+                  <input type="text" name="email" placeholder="Email Address" required> <!--"placeholder" and required message-->
                 </div>
-                <div class="contact-item">
-                  <div class="icon"><img src="./img/email.png" /></div>
-                  <div class="contact-info">
-                    <h1>Email</h1>
-                    <a href="mailto:Bryan.Arndt52@gmail.com">
-                    <h2>Bryan.Arndt52@gmail.com</h2>
-                  </div>
-                </div>
+                <!--<input type="hidden" name="_next" value="https://bryanj408.github.io/newPortfolio/">-->
+              <div class="contact-name">
+                <input type="text" name="name" placeholder="Name" required>
               </div>
-            </div>
-          </section>
+              <div class="contact-msg">
+                <textarea type="msg" name="message" placeholder="Write your message here" required></textarea>
+              </div>
+                <button class="cta" type="submit">Submit</button>
+              </form>
+          </div>
+        </section>
 
         <!--End Contact Section-->
 
